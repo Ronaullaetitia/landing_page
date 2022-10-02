@@ -1,0 +1,169 @@
+
+p{
+    color: black;
+    text-align: center;
+}
+h2{
+    color: red;
+}
+h5{
+    color: red;
+}
+.logo{
+    padding: 2px;
+    border: 1px solid red;
+    background-color: white;
+}
+.prod{
+    width: 600px;
+    padding: 2px;
+    border: 1px;
+    display: flex;
+
+}
+.produit{
+    display: flex;
+    justify-content: space-between;
+}
+.trois_piliers{
+    display: flex;
+    justify-content: right;
+}
+.mob{
+    width: 600px;
+    padding: 2px;
+    border: 3px;
+    display: flex;
+    border-style: solid;
+    border-color: rgb(255, 0, 0);
+    border-image: initial;
+    justify-content: center;
+}
+.pui{
+    width: 600px;
+    padding: 2px;
+    border: 3px;
+    display: flex;
+    border-style: solid;
+    border-color: rgb(255, 0, 0);
+    border-image: initial;
+    justify-content: center;
+
+}
+.int{
+    width: 600px;
+    padding: 2px;
+    border: 3px;
+    display: flex; 
+    border-style: solid;
+    border-color: rgb(255, 0, 0);
+    border-image: initial;
+    justify-content: center;
+
+}
+.decor_un{
+    display: flex;
+    justify-content: center;
+    margin: 9%;
+}
+.decor_deux{
+    display: flex;
+    justify-content: center;
+    margin: 9%;
+}
+.bloc{width: 600px;
+    padding: 2px;
+    border: 3px;
+    display: flex;
+    border-style: solid;
+    border-color: rgb(255, 0, 0);
+    border-image: initial;
+    align-items: center;
+    margin: 9%;
+
+   
+}
+.autres{ width: 600px;
+    padding: 2px;
+    border: 1px;
+    display: flex;
+    color: rgb(124, 75, 75);
+    
+}
+.laetitia{
+        width: 600px;
+        padding: 2px;
+        border: 1px;
+        display: flex;
+}
+@media screen and (max-width:1200px ) {
+    .bloc{
+        width: 90%;
+        color: brown;
+    }
+    .prod{
+        width: 90%;
+        color: rgb(255, 0, 0);
+    }
+    .produit{
+        width: 90%;
+        color: red;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+    .trois_piliers{
+        width: 70%;
+        color: red;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .des{
+        width: 90%;
+        color: rgb(255, 0, 0);
+    }
+    .cara{
+        width: 90%;
+        color: rgb(255, 0, 0);
+    }
+    .avis{
+        width: 90%;
+        color: rgb(255, 0, 0);
+    }
+    .pri{
+        width: 90%;
+        color: rgb(255, 0, 0);
+    }
+    .p{
+        color: black;
+    }
+    .autres{
+        width: 90%;
+        color: rgb(0, 0, 0);
+
+    }
+    .fin{
+        width: 90%;
+        color: black;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 9%;
+        padding: 2px;
+        border: 1px;
+
+    }
+    .laetitia{
+        width: 90%;
+        color: black;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 9%;
+        padding: 2px;
+        border: 1px;
+    
+    }
+    
+    
+}
